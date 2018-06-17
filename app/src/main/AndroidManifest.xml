@@ -32,9 +32,15 @@
         <activity
             android:name=".NumbersActivity"
             android:label="@string/category_numbers"/>
-        <activity android:name=".FamilyActivity" />
-        <activity android:name=".ColorsActivity" />
-        <activity android:name=".PhrasesActivity"></activity>
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Family"/>
+        <activity
+            android:name=".ColorsActivity"
+            android:label="Colors"/>
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Phrases"/>
     </application>
 
 </manifest>
